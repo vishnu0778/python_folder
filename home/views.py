@@ -14,7 +14,7 @@ def about(request):
     # return HttpResponse("THis is about page")
 
 def service(request):
-    return HttpResponse("THis is Service page")
+     return render(request, "service.html")
 
 def login(request):
     return render(request, "login.html")
